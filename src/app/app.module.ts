@@ -5,6 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { HomepageComponent } from './page/homepage/homepage.component';
+import { Router } from '@angular/router';
+
+
+// export const router :Router = [
+//   {path:'page',component: Page},
+// ]
 
 @NgModule({
   declarations: [
